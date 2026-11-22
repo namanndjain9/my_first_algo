@@ -1,6 +1,10 @@
 # Secrets - never commit these
 .env
 credentials.txt
+access_token.txt
+
+# Scanner output
+nifty100_sma_signals.csv
 *.kite_session.json
 .kite_session.json
 
