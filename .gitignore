@@ -1,0 +1,16 @@
+# Secrets - never commit these
+.env
+credentials.txt
+*.kite_session.json
+.kite_session.json
+
+# Python
+__pycache__/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# Local Claude Code settings
+.claude/

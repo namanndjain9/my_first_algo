@@ -1,0 +1,32 @@
+/*
+ * THEME — change the look of the whole app from this one file.
+ * Every color, radius and font used in styles.css comes from these variables.
+ */
+:root {
+  /* Backgrounds */
+  --color-bg: #0d1117;          /* page background */
+  --color-surface: #161b22;     /* cards, top bar */
+  --color-surface-2: #1f2630;   /* inputs, chips, hover */
+  --color-border: #2a313c;
+
+  /* Text */
+  --color-text: #e6edf3;
+  --color-text-muted: #8b949e;
+
+  /* Accent (buttons, active tab, links) */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-soft: rgba(59, 130, 246, 0.15);
+
+  /* Status (also used for Bullish / Bearish signals) */
+  --color-success: #34d399;
+  --color-success-soft: rgba(52, 211, 153, 0.12);
+  --color-danger: #f87171;
+  --color-danger-soft: rgba(248, 113, 113, 0.12);
+
+  /* Shape & type */
+  --radius: 10px;
+  --radius-small: 6px;
+  --font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-size: 15px;
+}
